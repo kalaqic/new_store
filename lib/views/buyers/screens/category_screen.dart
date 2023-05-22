@@ -5,6 +5,15 @@ class CategoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Category'),);
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: const [
+        Center(
+          child: Text(
+            'categories'
+          ),
+        )
+      ],
+    );
   }
 }
